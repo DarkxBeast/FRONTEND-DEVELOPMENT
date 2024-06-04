@@ -1,0 +1,17 @@
+/* CSS Box Model Assignment */
+
+.container {
+  background-color: pink;
+  padding: 20px;
+  margin: 10px;
+}
+
+.inner {
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.outer {
+  background-color: #9db2bf;
+  margin: 20px;
+}

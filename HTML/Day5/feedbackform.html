@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <h1>Feedback Form</h1>
+    <h3>Map of Mumbai,India</h3>
+    <iframe
+      id="map"
+      title="map"
+      src="https://www.google.com/maps/place/Chandigarh/@30.7322804,76.7707136,12z/data=!3m1!4b1!4m6!3m5!1s0x390fed0be66ec96b:0xa5ff67f9527319fe!8m2!3d30.7333148!4d76.7794179!16zL20vMDFmMXE4?authuser=0&entry=ttu"
+      width="250"
+      height="150"
+    >
+    </iframe>
+
+    <h3>My Audio</h3>
+    <div style="margin-right: 500px; float: right">
+      <h3>My Video</h3>
+      <video src="video.mp4" controls></video>
+    </div>
+    <audio src="audio.mp3" controls></audio>
+
+    <h3>Canvas</h3>
+    <canvas
+      id="mycanvas"
+      width="200"
+      height="150"
+      style="border: 1px solid black"
+    >
+      This is the html canvas.
+    </canvas>
+
+    <h3>Feedback Form</h3>
+    <div style="float: right; margin-right: 600px">
+      <h3>Emoji</h3>
+      Here's an emoji: &#128512;
+    </div>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" /><br />
+      <label for="feedback">Feedback:</label><br />
+      <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

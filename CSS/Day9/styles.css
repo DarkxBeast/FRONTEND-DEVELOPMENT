@@ -1,0 +1,23 @@
+/* CSS Styling Assignment */
+
+header {
+  color: navy; /* Named color */
+  background-color: #ffa500; /* Hexadecimal color */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgb(255, 255, 255); /* RGB color */
+  background-color: purple; /* Named color */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid darkslategray;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+}
