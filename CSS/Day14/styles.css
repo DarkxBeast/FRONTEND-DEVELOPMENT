@@ -1,0 +1,113 @@
+#lgrad{
+    height: 200px;
+    width: 300px;
+    background-image: repeating-linear-gradient(rgb(131,231,244), rgb(42, 94, 4)10%, rgb(42, 94, 4)15%);
+}
+
+#rgrad{
+    height: 200px;
+    width: 300px;
+    background-image: repeating-radial-gradient(rgb(179,230,244),rgb(161,189,246)10%,rgb(90,182,235)15%);
+}
+
+#input[type="text"],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#input[type=submit]{
+    width: 100%;
+    background-color: #0e93ec;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#form{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* WebXpert - CSS Gradients, Forms, Layout Overflow, and Resize Property Assignment */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,83,1) 54%, rgba(0,212,255,1) 100%); /* Apply linear gradient */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .form-container {
+    width: 500px;
+    height: 100%;
+    overflow: none; /* Apply overflow property */
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 5px;
+    border: 2px solid #9DB2BF;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: vertical; /* Apply resize property */
+    min-width: 90%;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0a6679;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1c6ea4;
+  }
+
+  #resiz{
+    border: 2px solid #9DB2BF;
+    width: 300px;
+    resize: both;
+    overflow: scroll;
+  }
